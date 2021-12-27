@@ -1,0 +1,33 @@
+.container {
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(250, 250, 250);
+
+  padding: 20px 20px;
+}
+
+.header {
+  font-size: 70px;
+  color: var(--text-color);
+
+  margin-top: 0px;
+  padding-bottom: 20px;
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+
+  margin-bottom: 10px;
+}
+
+.description {
+  color: var(--text-color);
+  font-size: 13px;
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+}

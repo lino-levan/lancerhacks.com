@@ -1,0 +1,25 @@
+.header {
+  width: 100vw;
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+
+  position: fixed;
+  color:white;
+  z-index: 1;
+}
+
+.link_container {
+  width: 100%;
+  max-width: 1000px;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.scroll_to {
+  cursor: pointer;
+}

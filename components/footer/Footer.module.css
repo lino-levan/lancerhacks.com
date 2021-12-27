@@ -1,0 +1,57 @@
+.container {
+  background-color: rgba(109, 122, 158, 0.8);
+  color: white;
+
+  height: 210px;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.links > a {
+  background-size: contain;
+  height: 62px;
+  width: 62px;
+  display: inline-block;
+  margin: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+
+  filter: brightness(0.9);
+
+  transition: all 0.1s ease-in;
+}
+
+.links > a:hover {
+  filter: brightness(1);
+}
+
+.instagram {
+  background-image: url("/img/instagram.png");
+}
+
+.github {
+  background-image: url("/img/github.png");
+}
+
+.email {
+  background-image: url("/img/email.png");
+}
+
+.twitter {
+  background-image: url("/img/twitter.png");
+}
+
+.copyright {
+  text-align: center;
+}

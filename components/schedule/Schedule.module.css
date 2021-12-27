@@ -1,0 +1,40 @@
+.container {
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(235, 235, 235);
+
+  padding: 20px 20px;
+}
+
+.header {
+  font-size: 70px;
+  color: var(--text-color);
+
+  margin-top: 0px;
+  padding-bottom: 20px;
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.date {
+  font-size: 55px;
+  color: var(--text-color);
+
+  margin-top: -30px;
+}
+
+.time {
+  font-size: 30px;
+  color: var(--text-color);
+
+  margin-top: 0px;
+}
+
+.coming_soon {
+  color: var(--text-color);
+}

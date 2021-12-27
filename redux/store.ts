@@ -1,7 +1,9 @@
-import { configureStore } from '@reduxjs/toolkit'
+import { combineReducers, configureStore } from '@reduxjs/toolkit'
+
+import pageReducer from './slices/pageSlice'
 
 export const store = configureStore({
-  reducer: {},
+  reducer: combineReducers({page: pageReducer}),
 })
 
 export type RootState = ReturnType<typeof store.getState>
