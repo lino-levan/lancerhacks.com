@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import styles from './SFHS.module.css'
 
 export function SFHS() {
@@ -14,7 +13,7 @@ export function SFHS() {
           </p>
         </div>
         <div>
-          <Image src="/sfhs.png" alt="saint francis logo" width={800} height={390}/>
+          <img src="/sfhs.png" alt="saint francis logo" width={800} height={390}/>
         </div>
       </div>
     </section>
