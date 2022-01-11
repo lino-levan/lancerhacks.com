@@ -13,7 +13,7 @@ export function SFHS() {
           </p>
         </div>
         <div>
-          <img src="/sfhs.png" alt="saint francis logo" width={800} height={390}/>
+          <img src="/sfhs.png" alt="saint francis logo" className={styles.logo}/>
         </div>
       </div>
     </section>
