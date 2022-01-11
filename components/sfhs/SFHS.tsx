@@ -1,3 +1,4 @@
+import { imageConfigDefault } from 'next/dist/server/image-config'
 import styles from './SFHS.module.css'
 
 export function SFHS() {

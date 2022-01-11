@@ -35,7 +35,7 @@
 
   margin: -40px 0px 0px 0px;
   text-shadow: rgba(100, 100, 100, 0.6) 0px 0px 25px;
-  font-size: 60px;
+  font-size: min(60px, 13vw);
 }
 
 .sign_up {
@@ -58,4 +58,9 @@
 .sign_up:hover {
   background-color: rgba(255, 255, 255, 0.1);
   color: white;
+}
+
+.logo {
+  max-width: 100%;
+  max-height: 100%;
 }

@@ -17,6 +17,7 @@ import { Tagline } from '../components/tagline/Tagline'
 
 import { useAppSelector, useAppDispatch } from '../redux/hooks'
 import { setScroll } from '../redux/slices/pageSlice'
+import { Transition } from '../components/transition/Transition'
 
 
 const Home: NextPage = () => {
@@ -49,12 +50,17 @@ const Home: NextPage = () => {
         <Header />
         <Logo />
         <About />
+        <Transition backgroundColor="white" color="rgb(235, 235, 235)"/>
         <Schedule />
+        <Transition backgroundColor="rgb(250, 250, 250)" color="rgb(235, 235, 235)" flipped={true}/>
         <FAQ />
         <Tagline background="/backgrounds/sobrato1.jpg" tagline="Artistic. Stylistic. Simplistic."/>
         <Sponsors />
+        <Transition backgroundColor="white" color="rgb(250, 250, 250)" flipped={true}/>
         <SFHS />
+        <Transition backgroundColor="white" color="rgb(250, 250, 250)"/>
         <Team />
+        <Transition backgroundColor="rgba(109, 122, 158, 0.8);" color="rgb(250, 250, 250)" flipped={true}/>
       </main>
 
       <footer>

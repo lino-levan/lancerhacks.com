@@ -10,7 +10,7 @@ export function Home() {
     <section className={styles.container} id="home">
       <div className={styles.background}>
         <div className={styles.inner_container} style={{opacity:1-(scroll/200), display: scroll>200?'none':'flex'}}>
-          <img src="/logo_white.png" alt="lancerhacks logo" height={400} width={400}/>
+          <img src="/logo_white.png" alt="lancerhacks logo" height={400} width={400} className={styles.logo}/>
           <h1 className={styles.name}>Lancerhacks V</h1>
           <button className={styles.sign_up}>Sign Up</button>
         </div>

@@ -22,7 +22,7 @@
 }
 
 .header {
-  font-size: 55px;
+  font-size: min(55px, 13vw);
   color: var(--text-color);
 
   margin-top: 0px;
@@ -32,7 +32,7 @@
 }
 
 .about {
-  font-size: 20px;
+  font-size: min(20px, 10vw);
   color: var(--text-color);
   opacity: 1;
 }
@@ -74,7 +74,7 @@
   text-align: center;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
   .information {
     width: 100%;
     grid-template-columns: none;

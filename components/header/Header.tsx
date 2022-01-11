@@ -15,7 +15,7 @@ const ScrollTo = ({children, href}: IScrollTo) => {
     <p className={styles.scroll_to} onClick={(e)=>{
       let scrollTo = document.getElementById(href)
       if(scrollTo !== null) {
-        elementScrollIntoView(document.getElementById(href) as Element, { behavior: "smooth", block: "center", inline: "center" });
+        elementScrollIntoView(document.getElementById(href) as Element, { behavior: "smooth", block: "start", inline: "center" });
       }
     }}>{children}</p>
   )
