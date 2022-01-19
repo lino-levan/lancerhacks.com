@@ -12,7 +12,7 @@
 }
 
 .header {
-  font-size: 70px;
+  font-size: min(70px, 15vw);
   color: var(--text-color);
 
   margin-top: 0px;
@@ -22,14 +22,14 @@
 }
 
 .date {
-  font-size: 55px;
+  font-size: min(55px, 13vw);
   color: var(--text-color);
 
   margin-top: -30px;
 }
 
 .time {
-  font-size: 30px;
+  font-size: min(30px, 10vw);
   color: var(--text-color);
 
   margin-top: 0px;

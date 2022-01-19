@@ -55,7 +55,7 @@ export function About() {
           We encourage interested students with <b>all levels of expertise</b> to attend the event to experience how the power of computer science can be leveraged in numerous fields and how this potential is enhanced when one applies a creative and personal touch. The underlying message of LancerHacks is that computer science is for everyone: it is not just for one type of person; it requires a variety of perspectives, an ability to think outside of the box, and a level of social awareness to identify communities that have the potential to improve in the field of computer science.
           </p>
           <div className={styles.map_container}>
-            <iframe className={styles.map} width="100%" height="100%" frameBorder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3170.855732314151!2d-122.08853048421886!3d37.36959037983529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb12c54f0dc7d%3A0x1f75f9c2ea008396!2sSt.+Francis+High+School!5e0!3m2!1sen!2sus!4v1502246381985" allow="fullscreen"></iframe>
+            <iframe title="Map to Saint Francis" className={styles.map} width="100%" height="100%" frameBorder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3170.855732314151!2d-122.08853048421886!3d37.36959037983529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb12c54f0dc7d%3A0x1f75f9c2ea008396!2sSt.+Francis+High+School!5e0!3m2!1sen!2sus!4v1502246381985" allow="fullscreen"></iframe>
           </div>
         </div>
         <div>

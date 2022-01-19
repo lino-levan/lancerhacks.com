@@ -43,13 +43,9 @@ export function FAQ() {
           <p className={styles.answer}>Please check the schedule for the most up-to-date information, but for now it is taking place on Saturday, March 5, 2022, 7:30 am - 10:00 pm at the Saint Francis Campus. All attendees will be sent an invitation to join.</p>
         </div>
         <div className={styles.question_right}>
-          <h3 className={styles.question_header}>Do I have to stay for the whole event?</h3>
-          <p className={styles.answer}>No. We understand that everyone has busy schedules and may not be able to stay for the entire event. Contact us to make arrangements.</p>
+          <h3 className={styles.question_header}>More questions?</h3>
+          <p className={styles.answer}>Email us at <a href="mailto:hello@lancerhacks.com">hello@lancerhacks.com</a> with any questions you have.</p>
         </div>
-      </div>
-      <div className={styles.email}>
-        <h3 className={styles.question_header}>More questions?</h3>
-        <p className={styles.answer}>Email us at <a href="mailto:hello@lancerhacks.com">hello@lancerhacks.com</a> with any questions you have.</p>
       </div>
     </section>
   )

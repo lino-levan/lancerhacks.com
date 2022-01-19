@@ -12,7 +12,7 @@
 }
 
 .header {
-  font-size: 70px;
+  font-size: min(70px, 15vw);
   color: var(--text-color);
 
   margin-top: 0px;
@@ -36,11 +36,6 @@
 .question_right {
   max-width: 300px;
   text-align: right;
-}
-
-.email {
-  max-width: 300px;
-  text-align: center;
 }
 
 @media (max-width: 800px) {

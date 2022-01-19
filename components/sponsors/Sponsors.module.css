@@ -12,7 +12,7 @@
 }
 
 .header {
-  font-size: 70px;
+  font-size: min(70px, 15vw);
   color: var(--text-color);
 
   margin-top: 0px;

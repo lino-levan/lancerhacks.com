@@ -13,7 +13,7 @@
 }
 
 .header {
-  font-size: 70px;
+  font-size: min(70px, 15vw);
   color: white;
   text-align: center;
 }

@@ -23,3 +23,9 @@
 .scroll_to {
   cursor: pointer;
 }
+
+@media (max-width: 450px) {
+  .header {
+    display: none;
+  }
+}

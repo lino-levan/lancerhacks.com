@@ -84,3 +84,9 @@
     padding: 20px 40px;
   }
 }
+
+@media (max-width: 300px) {
+  .timer {
+    display: none;
+  }
+}
