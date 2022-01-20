@@ -42,6 +42,8 @@
 }
 
 .member {
+  width: 400px;
+
   display: grid;
   grid-template-columns: 100px auto;
   column-gap: 20px;

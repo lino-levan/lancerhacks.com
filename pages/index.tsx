@@ -50,11 +50,10 @@ const Home: NextPage = () => {
         <Header />
         <Logo />
         <About />
-        <Transition backgroundColor="white" color="rgb(235, 235, 235)"/>
         <Schedule />
         <Transition backgroundColor="rgb(250, 250, 250)" color="rgb(235, 235, 235)" flipped={true}/>
         <FAQ />
-        <Tagline background="/backgrounds/sobrato1.jpg" tagline="Artistic. Stylistic. Simplistic."/>
+        <Tagline background="/backgrounds/sobrato1.jpg" tagline="Doodle the Future"/>
         <Sponsors />
         <Transition backgroundColor="white" color="rgb(250, 250, 250)" flipped={true}/>
         <SFHS />
