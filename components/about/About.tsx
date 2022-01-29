@@ -48,7 +48,7 @@ export function About() {
           <p className={styles.about}>
           <b>LancerHacks</b> V is the fifth annual twelve-hour hackathon organized by sfhacks, the student-led programming club at Saint Francis High School. In partnership with the school, LancerHacks will take place in person on <b>Saturday, March 5, 2022</b>, and will host approximately 200 students from local high schools.<br /><br />
     
-          Drawing from the strength of our school’s mission to “educate hearts and minds to serve the world,” the theme of LancerHacks IV is <b>“Doodle The Future.”</b> We encourage attendees to draw inspiration from the primary nature of scientific and technological development. Feel free to interpret the prompt however you want — get creative!<br /><br />
+          Drawing from the strength of our school’s mission to “educate hearts and minds to serve the world,” the theme of LancerHacks V is <b>“Doodle The Future.”</b> We encourage attendees to draw inspiration from the primary nature of scientific and technological development. Feel free to interpret the prompt however you want — get creative!<br /><br />
             
           Supplementing the main project-development element of the hackathon through a variety of challenges and events, LancerHacks will continue to emphasize collaboration among attendees, mentorship by peers and industry experts, attendance at speaker sessions and workshops, and expanding the traditional understanding of computer science and its various daily-life applications.<br /><br />
             

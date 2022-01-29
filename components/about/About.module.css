@@ -7,7 +7,9 @@
   align-items: center;
 
   background-image: url('/tree.png');
-  background-size: cover;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position-x: right;
 
   z-index: 2;
 }
