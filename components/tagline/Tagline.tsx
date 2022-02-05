@@ -8,7 +8,7 @@ interface ITagline {
 export function Tagline({background, tagline}: ITagline) {
   return (
     <section className={styles.container} style={{backgroundImage:`url("${background}")`}}>
-      <h1 className={styles.header}>{tagline}</h1>
+      <div className={styles.tagline} style={{backgroundImage:`url("${tagline}")`}}></div>
     </section>
   )
 }

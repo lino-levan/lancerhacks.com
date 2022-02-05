@@ -12,8 +12,13 @@
   background-attachment: fixed;
 }
 
-.header {
-  font-size: min(70px, 15vw);
-  color: white;
-  text-align: center;
+.tagline {
+  width: 607px;
+  height: 411px;
+}
+
+@media (max-width: 607px) {
+  .tagline {
+    height: 0px;
+  }
 }

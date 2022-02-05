@@ -5,17 +5,17 @@ export function Team() {
   let team_members = [
     ["avi", "Avi Rakholia", "Avi is a senior at Saint Francis.", "https://github.com/Avi-Rakholia"],
     ["ayush", "Ayush Raj", "Ayush is a junior at Saint Francis. In his spare time he enjoys coding and watches the Warriors.", "https://github.com/rajayush143"],
-    ["lino", "Lino Le Van", "Lino is a senior at Saint Francis. He has a friend named Matt Wong. Thank you.", "https://linolevan.com"],
-    ["surya", "Surya Jasper", "Surya is a senior at Saint Francis. Professional dumb***", "https://github.com/suryajasper"],
+    ["lino", "Lino Le Van", "Lino is a senior at Saint Francis. He loves programming and wants to share his passion with the world through hackathons like these.", "https://linolevan.com"],
+    ["surya", "Surya Jasper", "Surya is a senior at Saint Francis.", "https://github.com/suryajasper"],
     ["medha", "Medha Mahanta", "Medha is a sophmore at Saint Francis. She loves math way too much and likes to hang out with Mrs. Vollucci.", "https://github.com/MedhaMahanta"],
     ["molly", "Molly Sullivan", "Molly is a senior at Saint Francis."],
     ["nina", "Nina Le Van", "Nina is a freshman at Saint Francis."],
-    ["nitish", "Nitish Gourishetty", "Nitish is a junior at Saint Francis.", "https://github.com/NitishGourishetty"],
-    ["pranav", "Pranav Amarnath", "Pranav is a junior at Saint Francis. He likes CADing, robotics, and spamming people's emails.", "https://github.com/PranavAmarnath"],
-    ["rithvik", "Rithvik Chavali ", "Rithvik is a sophmore at Saint Francis. He likes NextJS and is a huge nerd."],
-    ["shlok", "Shlok Shah", "Shlok is a senior at Saint Francis. He never shows up to meetings really.", "https://github.com/shlinky"],
-    ["swastik", "Swastik Purathepparambil", "Swastik is a sophmore at Saint Francis. Something something basketball.", "https://github.com/SwastikPurathepparambil"],
-    ["ruhi", "Ruhi Yusuf", "Ruhi is a sophmore at Saint Francis. She's interested in computer science and music.", "https://github.com/ruhiyusuf"]
+    ["nitish", "Nitish Gourishetty", "Nitish Gourishetty is a junior at Saint Francis High School. Currently he loves immersing himself into the world of technology. In his free time he loves doing things like robotics and building cool machines, as well as other things things like reading, playing the guitar. Nitish hopes to spread his passion of technology.", "https://github.com/NitishGourishetty"],
+    ["pranav", "Pranav Amarnath", "Pranav is a junior at Saint Francis. He likes programming and robotics.", "https://github.com/PranavAmarnath"],
+    ["rithvik", "Rithvik Chavali ", "Rithvik is a sophmore at Saint Francis. He likes React JS and hopes to work in the industry at some point."],
+    ["shlok", "Shlok Shah", "Shlok is a senior at Saint Francis. He is an innovative programmer, who is a section leader in band and a part of the programming club.", "https://github.com/shlinky"],
+    ["swastik", "Swastik Purathepparambil", "Swastik is a sophmore at Saint Francis. He is very passionate about marketing and plays basketball.", "https://github.com/SwastikPurathepparambil"],
+    ["ruhi", "Ruhi Yusuf", "Ruhi is a sophmore at Saint Francis. She's interested in computer science, robotics, and music.", "https://github.com/ruhiyusuf"]
   ]
   
   return (

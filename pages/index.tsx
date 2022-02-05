@@ -53,7 +53,7 @@ const Home: NextPage = () => {
         <Schedule />
         <Transition backgroundColor="rgb(250, 250, 250)" color="rgb(235, 235, 235)" flipped={true}/>
         <FAQ />
-        <Tagline background="/backgrounds/sobrato1.jpg" tagline="Doodle the Future"/>
+        <Tagline background="/backgrounds/sobrato1.jpg" tagline="/img/doodle.png"/>
         <Sponsors />
         <Transition backgroundColor="white" color="rgb(250, 250, 250)" flipped={true}/>
         <SFHS />
