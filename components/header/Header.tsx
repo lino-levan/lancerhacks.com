@@ -1,5 +1,3 @@
-import { useEffect, useState } from "react";
-import { elementScrollIntoView } from "seamless-scroll-polyfill";
 import { useAppSelector, useAppDispatch } from '../../redux/hooks'
 import { pageSelector } from "../../redux/slices/pageSlice";
 
@@ -15,7 +13,8 @@ const ScrollTo = ({children, href}: IScrollTo) => {
     <p className={styles.scroll_to} onClick={(e)=>{
       let scrollTo = document.getElementById(href)
       if(scrollTo !== null) {
-        elementScrollIntoView(document.getElementById(href) as Element, { behavior: "smooth", block: "start", inline: "center" });
+        (scrollTo as Element).scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"})
+        // console.log(document.getElementById(href))
       }
     }}>{children}</p>
   )
