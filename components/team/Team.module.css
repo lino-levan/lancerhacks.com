@@ -42,7 +42,7 @@
 }
 
 .member {
-  width: 400px;
+  width: min(400px, 90vw);
 
   display: grid;
   grid-template-columns: 100px auto;

@@ -11,48 +11,6 @@
   padding: 20px 20px;
 }
 
-.header {
-  font-size: min(70px, 15vw);
-  color: var(--text-color);
-
-  margin-top: 0px;
-  padding-bottom: 20px;
-
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-}
-
-.question_container {
-  max-width: 800px;
-
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px 10px;
-}
-
-.question {
-  max-width: 300px;
-}
-
-.question_right {
-  max-width: 300px;
-  text-align: right;
-}
-
-.email {
-  max-width: 300px;
-  text-align: center;
-}
-
-@media (max-width: 800px) {
-  .question_container {
-    grid-template-columns: none;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .question_right {
-    text-align: left;
-  }
+.sponsor {
+  max-width: min(90vw, 500px);
 }

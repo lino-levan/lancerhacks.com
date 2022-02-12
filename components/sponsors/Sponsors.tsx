@@ -2,10 +2,17 @@ import styles from './Sponsors.module.css'
 
 export function Sponsors() {
   
+  let sponsors = [
+    'wolfram',
+    'leading_learners'
+  ]
+
   return (
     <section className={styles.container} id="sponsors">
       <h1 className={styles.header}>Sponsors</h1>
-      <p>Coming Soon!</p>
+      {
+        sponsors.map((sponsor)=> <img className={styles.sponsor} key={sponsor} alt={sponsor} src={`/sponsors/${sponsor}.png`}/>)
+      }
     </section>
   )
 }
