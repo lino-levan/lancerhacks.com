@@ -13,4 +13,5 @@
 
 .sponsor {
   max-width: min(90vw, 500px);
+  max-height: 300px;
 }

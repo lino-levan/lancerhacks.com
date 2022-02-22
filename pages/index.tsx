@@ -59,7 +59,7 @@ const Home: NextPage = () => {
         <SFHS />
         <Transition backgroundColor="white" color="rgb(250, 250, 250)"/>
         <Team />
-        <Transition backgroundColor="rgba(109, 122, 158, 0.8);" color="rgb(250, 250, 250)" flipped={true}/>
+        <Transition backgroundColor="rgba(109, 122, 158, 0.8)" color="rgb(250, 250, 250)" flipped={true}/>
       </main>
 
       <footer>

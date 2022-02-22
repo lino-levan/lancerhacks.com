@@ -4,7 +4,9 @@ export function Sponsors() {
   
   let sponsors = [
     'wolfram',
-    'leading_learners'
+    'leading_learners',
+    'aops',
+    'veritas'
   ]
 
   return (

@@ -38,3 +38,33 @@
 .coming_soon {
   color: var(--text-color);
 }
+
+.scrollable {
+  padding: 30px;
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+.title {
+  background-color: #fffcab;
+}
+
+.times {
+  background-color: #abfff5;
+}
+
+.hackathon {
+  background-color: white;
+}
+
+.activity {
+  background-color: #ffabb2;
+}
+
+.speaker {
+  background-color: #abffae;
+}
+
+.workshop {
+  background-color: #b3abff;
+}
