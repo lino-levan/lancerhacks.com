@@ -44,7 +44,7 @@ export function About() {
     <section className={styles.container} id="about">
       <div className={styles.information}>
         <div>
-          <h1 className={styles.header}>What is Lancerhacks?</h1>
+          <h1 className={styles.header}>What is LancerHacks?</h1>
           <p className={styles.about}>
           <b>LancerHacks</b> V is the fifth annual twelve-hour hackathon organized by sfhacks, the student-led programming club at Saint Francis High School. In partnership with the school, LancerHacks will take place in person on <b>Saturday, March 5, 2022</b>, and will host approximately 200 students from local high schools.<br /><br />
     

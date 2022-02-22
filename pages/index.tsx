@@ -36,7 +36,7 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Lancerhacks V</title>
+        <title>LancerHacks V</title>
         <meta name="description" content="LancerHacks V is the fifth annual twelve-hour hackathon organized by sfhacks, the student-led programming club at Saint Francis High School." />
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
