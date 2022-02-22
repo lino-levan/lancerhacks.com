@@ -242,9 +242,11 @@ export function Schedule() {
       }
     }
 
+    let time = `${startTime.hour}:${startTime.minutes < 10?("0"+startTime.minutes):startTime.minutes}`
+
     schedule.push(
-      <tr>
-        <td className={styles.times}>{`${startTime.hour}:${startTime.minutes < 10?("0"+startTime.minutes):startTime.minutes}`}</td>
+      <tr key={time}>
+        <td className={styles.times}>{time}</td>
         {
           renderedEvents
         }

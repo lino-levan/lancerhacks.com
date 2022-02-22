@@ -28,7 +28,7 @@ export function FAQ() {
         </div>
         <div className={styles.question}>
           <h3 className={styles.question_header}>When/where is it?</h3>
-          <p className={styles.answer}>Please check the schedule for the most up-to-date information, but for now it is taking place on Saturday, March 5, 2022, 7:30 am - 10:00 pm at the Saint Francis Campus. All attendees will be sent an invitation to join.</p>
+          <p className={styles.answer}>LancerHacks is taking place on Saturday, March 5, 2022, 7:30 am - 10:00 pm at the Saint Francis Campus. Please check the schedule for more information. All registrants will be sent an email with more information.</p>
         </div>
         <div className={styles.question}>
           <h3 className={styles.question_header}>Is it free?</h3>

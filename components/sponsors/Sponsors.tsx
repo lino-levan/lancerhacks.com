@@ -3,11 +3,12 @@ import styles from './Sponsors.module.css'
 export function Sponsors() {
   
   let sponsors = [
-    ['wolfram', ''],
-    ['leading_learners','https://linktr.ee/leadinglearners'],
-    ['aops',''],
+    ['brand_makers','https://www.brandmakers.com'],
+    ['aops','https://artofproblemsolving.com '],
+    ['wolfram', 'https://www.wolfram.com'],
     ['veritas','https://drive.google.com/drive/u/0/folders/1teSDbIvwUmXvWEW5XZFquP4iP2MWKsvt'],
-    ['sticker_giant', 'https://www.stickergiant.com/event-coupons?utm_source=website&utm_medium=event']
+    ['sticker_giant', 'https://www.stickergiant.com/event-coupons?utm_source=website&utm_medium=event'],
+    ['leading_learners','https://linktr.ee/leadinglearners'],
   ]
 
   return (
