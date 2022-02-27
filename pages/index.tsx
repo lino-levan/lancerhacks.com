@@ -55,11 +55,11 @@ const Home: NextPage = () => {
         <FAQ />
         <Tagline background="/backgrounds/sobrato1.jpg" tagline="/img/doodle.png"/>
         <Sponsors />
-        <Transition backgroundColor="white" color="rgb(250, 250, 250)" flipped={true}/>
-        <SFHS />
         <Transition backgroundColor="white" color="rgb(250, 250, 250)"/>
+        <SFHS />
+        <Transition backgroundColor="white" color="rgb(250, 250, 250)" flipped={true}/>
         <Team />
-        <Transition backgroundColor="rgba(109, 122, 158, 0.8)" color="rgb(250, 250, 250)" flipped={true}/>
+        <Transition backgroundColor="rgba(109, 122, 158, 0.8)" color="white" flipped={true}/>
       </main>
 
       <footer>
