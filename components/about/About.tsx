@@ -8,7 +8,7 @@ interface IDate {
   seconds: string
 }
 
-const lancerhacksDate = new Date(2022, 2, 5)
+export const lancerhacksDate = new Date(2022, 2, 5)
 
 export function About() {
   const [time, setTime] = useState<IDate>({days: "100", hours: "10", minutes: "05", seconds: "03"})
