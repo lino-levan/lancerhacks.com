@@ -245,6 +245,7 @@ export function Schedule() {
           slotMaxTime="21:45:00"
           height={600}
           initialDate={dayStr}
+          allDaySlot={false}
         />
       </div>
     </section>
