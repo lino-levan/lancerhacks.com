@@ -114,8 +114,8 @@ const EVENTS = [
   },
   {
     id: createEventId(),
-    title: 'Speaker: Prasanti (Raspberry Pi)',
-    start: dayStr + 'T08:15:00',
+    title: 'Morning Speakers',
+    start: dayStr + 'T08:20:00',
     end: dayStr + 'T08:45:00',
     color: '#caffa1',
     textColor: 'black',
@@ -168,7 +168,16 @@ const EVENTS = [
   },
   {
     id: createEventId(),
-    title: 'Sponsor Workshop',
+    title: 'AI Workshop',
+    start: dayStr + 'T09:15:00',
+    end: dayStr + 'T09:45:00',
+    color: '#a1ffeb',
+    textColor: 'black',
+    borderColor: 'black',
+  },
+  {
+    id: createEventId(),
+    title: 'Vertias AI Workshop',
     start: dayStr + 'T10:30:00',
     end: dayStr + 'T11:00:00',
     color: '#a1ffeb',
