@@ -9,6 +9,7 @@ export function Sponsors() {
     ['veritas','https://drive.google.com/drive/u/0/folders/1teSDbIvwUmXvWEW5XZFquP4iP2MWKsvt'],
     ['sticker_giant', 'https://www.stickergiant.com/event-coupons?utm_source=website&utm_medium=event'],
     ['leading_learners','https://linktr.ee/leadinglearners'],
+    ['broadcom', 'http://broadcomfoundation.org/codingwithcommitment/']
   ]
 
   return (

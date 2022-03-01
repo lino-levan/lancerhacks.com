@@ -114,7 +114,7 @@ const EVENTS = [
   },
   {
     id: createEventId(),
-    title: 'Morning Speakers',
+    title: 'Speaker: Paula Golden & Prasanthi Sathyaprakash - Broadcom',
     start: dayStr + 'T08:20:00',
     end: dayStr + 'T08:45:00',
     color: '#caffa1',
