@@ -3,6 +3,7 @@ import styles from './Team.module.css'
 export function Team() {
 
   let team_members = [
+    ["ruhi", "Ruhi Yusuf", "Ruhi is a sophmore at Saint Francis. She's interested in computer science, robotics, and music.", "https://github.com/ruhiyusuf"],
     ["avi", "Avi Rakholia", "Avi is a senior at Saint Francis.", "https://github.com/Avi-Rakholia"],
     ["ayush", "Ayush Raj", "Ayush is a junior at Saint Francis. In his spare time he enjoys coding and watches the Warriors.", "https://github.com/rajayush143"],
     ["lino", "Lino Le Van", "Lino is a senior at Saint Francis. He loves programming and wants to share his passion with the world through hackathons like these.", "https://linolevan.com"],
@@ -15,7 +16,7 @@ export function Team() {
     ["rithvik", "Rithvik Chavali ", "Rithvik is a sophmore at Saint Francis. He likes React JS and hopes to work in the industry at some point."],
     ["shlok", "Shlok Shah", "Shlok is a senior at Saint Francis. He is an innovative programmer, who is a section leader in band and a part of the programming club.", "https://github.com/shlinky"],
     ["swastik", "Swastik Purathepparambil", "Swastik is a sophmore at Saint Francis. He is very passionate about marketing and plays basketball.", "https://github.com/SwastikPurathepparambil"],
-    ["ruhi", "Ruhi Yusuf", "Ruhi is a sophmore at Saint Francis. She's interested in computer science, robotics, and music.", "https://github.com/ruhiyusuf"]
+    ["angela", "Angela Xiao", "Angela is a senior at Saint Francis. Interested in computer science, rhythm games, and draws occasionally(?).", "https://www.youtube.com/channel/UCQ1zGxHrfEmmW4CPpBx9-qw"],
   ]
   
   return (
