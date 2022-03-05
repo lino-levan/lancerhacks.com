@@ -142,8 +142,8 @@ const EVENTS = [
   {
     id: createEventId(),
     title: 'Brainstorming Workshop',
-    start: dayStr + 'T08:30:00',
-    end: dayStr + 'T09:00:00',
+    start: dayStr + 'T08:45:00',
+    end: dayStr + 'T09:15:00',
     color: '#a1ffeb',
     textColor: 'black',
     borderColor: 'black',
@@ -151,8 +151,8 @@ const EVENTS = [
   {
     id: createEventId(),
     title: 'IOS Development Workshop',
-    start: dayStr + 'T09:00:00',
-    end: dayStr + 'T10:00:00',
+    start: dayStr + 'T09:15:00',
+    end: dayStr + 'T10:15:00',
     color: '#a1ffeb',
     textColor: 'black',
     borderColor: 'black',
@@ -160,8 +160,8 @@ const EVENTS = [
   {
     id: createEventId(),
     title: 'Web Development Workshop',
-    start: dayStr + 'T09:00:00',
-    end: dayStr + 'T10:00:00',
+    start: dayStr + 'T09:15:00',
+    end: dayStr + 'T10:15:00',
     color: '#a1ffeb',
     textColor: 'black',
     borderColor: 'black',
@@ -187,7 +187,7 @@ const EVENTS = [
   {
     id: createEventId(),
     title: 'Four Square',
-    start: dayStr + 'T10:00:00',
+    start: dayStr + 'T10:15:00',
     end: dayStr + 'T11:00:00',
     color: '#ffada1',
     textColor: 'black',
